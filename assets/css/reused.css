@@ -1,0 +1,43 @@
+/* reused style */
+
+.container, .container2 {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.container2 {
+  padding: 0 20px;
+}
+
+.title-section {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.icon-contact {
+  width: 1.2rem;
+  height: auto;
+  margin-right: 3px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+  
+  .container {
+    padding: 0 200px;
+  }
+
+  .container2 {
+    padding: 0 100px;
+  }
+
+}

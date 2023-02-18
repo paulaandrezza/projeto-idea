@@ -1,0 +1,28 @@
+.about .container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .container .content {
+  width: 50%;
+}
+
+.logo-home img {
+  max-width: 100%;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about .container {
+    flex-direction: row;
+  }
+
+  .logo-home img {
+    width: 90%;
+  }
+
+}

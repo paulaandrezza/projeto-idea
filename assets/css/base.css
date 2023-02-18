@@ -1,0 +1,73 @@
+/* Custom Property */
+
+:root {
+
+  --white-color: #fff;
+  --red-footer-color: #d7040d;
+  --orange-footer-color: #F17205;
+
+  --subtitle-color: #fd9824;
+  --paragraph-color: #828282;
+
+  --blue-text-color: #197cbd;
+
+  --blue-banner-color: #00738795;
+  --green-banner-color: #00b57f95;
+
+  --black-with-opacity-90: #00000090;
+  --black-with-opacity-20: #00000020;
+
+  --banner-background: url("../img/banner1.jpg")
+  --differentials-background: url("../img/fundo-diferencias.jpg");
+
+}
+
+
+/* Reset */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Mulish', sans-serif;
+}
+
+h2, h3 {
+  color: var(--subtitle-color);
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+address {
+  font-style: normal;
+}
+
+
+
+@media (min-width: 425px) {
+
+  body {
+    font-size: 1.6rem;
+  }
+
+}

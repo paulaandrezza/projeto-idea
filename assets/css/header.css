@@ -1,0 +1,64 @@
+/* Info */
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 0.001px solid var(--black-with-opacity-20);
+}
+
+.contact {
+  color: var(--black-with-opacity-90);
+  font-size: 1.2rem;
+}
+
+.contact-list {
+  display: none;
+}
+
+header .contact-list li img{
+  filter: grayscale(100%);
+}
+
+.info div ul {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+/* Header */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  filter: grayscale(100%);
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  font-size: 1.3rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .contact-list {
+    display: flex;
+    align-items: center;
+  }
+
+  header .contact-list li {
+    margin-right: 10px;
+  }
+
+}

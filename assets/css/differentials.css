@@ -1,0 +1,41 @@
+.differentials {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-image: url(../img/fundo-diferencias.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.differentials .container h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.differentials-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.differentials-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.differentials-list h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: var(--blue-text-color);
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .differentials-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 200px;
+  }
+}
