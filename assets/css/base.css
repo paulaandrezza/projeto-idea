@@ -6,13 +6,18 @@
   --red-footer-color: #d7040d;
   --orange-footer-color: #F17205;
 
+  --background-differentials-color: #FFFAE7;
+
   --subtitle-color: #fd9824;
   --paragraph-color: #828282;
 
   --blue-text-color: #197cbd;
 
+  --menu-icon-color: #333;
+
   --blue-banner-color: #00738795;
   --green-banner-color: #00b57f95;
+
 
   --black-with-opacity-90: #00000090;
   --black-with-opacity-20: #00000020;
@@ -42,6 +47,10 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  opacity: 0.6;
 }
 
 body {

@@ -15,7 +15,7 @@
 
 .title-section {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .icon-contact {
@@ -33,11 +33,11 @@
 @media screen and (min-width: 1024px) {
   
   .container {
-    padding: 0 200px;
+    padding: 20px 250px;
   }
 
   .container2 {
-    padding: 0 100px;
+    padding: 0 150px;
   }
 
 }

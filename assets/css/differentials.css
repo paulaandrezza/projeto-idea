@@ -2,7 +2,11 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
+  background-color: var(--background-differentials-color);
+
   background-image: url(../img/fundo-diferencias.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
   text-align: center;
   display: flex;
   flex-direction: column;

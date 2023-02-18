@@ -71,15 +71,19 @@
         <img src="./assets/img/Layer 8.png" alt="Logo da Eco Lavagens Delivery">
       </div>
 
+      <div class="menu-icon" id="menu-icon">
+        <span></span><span></span><span></span>
+      </div>
+
       <nav class="navbar">
-        <ul class="navbar-list">
-          <li><a href="#" class="navbar-link">Home</a></li>
-          <li><a href="#" class="navbar-link">Quem somos</a></li>
-          <li><a href="#" class="navbar-link">Serviços</a></li>
-          <li><a href="#" class="navbar-link">Portfólio</a></li>
-          <li><a href="#" class="navbar-link">Clientes</a></li>
-          <li><a href="#" class="navbar-link">Contato</a></li>
-          <li><a href="#" class="navbar-link">Licenciados</a></li>
+        <ul>
+          <li><a href="#" class="selected">Home</a></li>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Clientes</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Licenciados</a></li>
         </ul>
       </nav>
 
@@ -88,11 +92,9 @@
 
 
   <!-- Main -->
-
   <main>
 
     <!-- Banner -->
-
     <section class="banner">
         
         <img src="/assets/img/banner1.jpg" alt="Banner">
@@ -104,7 +106,6 @@
     </section>
 
     <!-- About -->
-
     <section class="about">
       <div class="container">
 
@@ -121,7 +122,6 @@
     </section>
 
     <!-- Differentials -->
-
     <section class="differentials">
       <div class="container">
 
@@ -135,28 +135,42 @@
     </section>
 
     <!-- Clientes -->
-
     <section class="clientes">
-      <!-- <div class="container">
+      <div class="container2">
 
         <h3 class="title-section">Clientes</h3>
 
+        <div class="slider">
 
+          <ul class="slides">
+            <li class="slide"><img src="assets/img/Layer 6.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 7.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 8.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 9.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 6.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 7.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 8.png" alt=""></li>
+            <li class="slide"><img src="assets/img/Layer 9.png" alt=""></li>
+          </ul>
+  
+          <a class="prev" onclick="plusSlides(-1)"><img src="assets/img/seta-esq2.png" alt=""></a>
+          <a class="next" onclick="plusSlides(1)"><img src="assets/img/seta-dir2.png" alt=""></a>
+        </div>
 
-      </div> -->
+        </div>
+
     </section>
 
   </main>
 
 
   <!-- Footer -->
-
   <footer>
     <div>
 
       <div class="container">
 
-        <nav class="navbar">
+        <nav class="footer-navbar">
           <ul class="navbar-list">
             <li><a href="#" class="navbar-link">Home</a></li>
             <li><a href="#" class="navbar-link">Quem somos</a></li>
@@ -181,7 +195,7 @@
               <a href="tel:+5535984365548">(35) 98436-5548</a>
             </li>
             <li class="contact-link">
-              <img src="assets/img/email1.png" alt="icon-email" class="icon-contact">
+              <img src="assets/img/email2.png" alt="icon-email" class="icon-contact">
               <a href="mailto:atendimento@mamutedelivery.com.br">atendimento@mamutedelivery.com.br</a>
             </li>
           </ul>
@@ -216,9 +230,14 @@
   </footer>
 
 
-  <!-- JavaScript -->
+  <!-- Ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+  <!-- JavaScript -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/toggle-menu.js"></script>
 
 </body>
 </html>

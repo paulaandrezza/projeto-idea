@@ -1,3 +1,47 @@
-.clientes {
-  padding: 30px;
+.clientes .container2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 50px;
+}
+
+.slide img {
+  filter: grayscale();
+  height: 150px;
+}
+
+.prev, .next {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25%;
+  cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+  margin: 0;
+}
+
+.prev {
+  left: 0;
+  margin-left: 10px;
+}
+
+.next {
+  right: 0;
+  margin-right: 10px;
 }
