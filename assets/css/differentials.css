@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.differentials-list li img {
+  width: 100px;
+}
+
 .differentials-list h3 {
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -41,5 +45,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px 200px;
+  }
+
+  .differentials-list li img {
+    width: auto;
   }
 }

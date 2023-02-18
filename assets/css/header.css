@@ -101,7 +101,7 @@ nav.show {
   display: block;
   position: absolute;
   height: auto;
-  top: 115px;
+  top: 120px;
   left: 0;
   width: 100%;
   background-color: var(--white-color);
