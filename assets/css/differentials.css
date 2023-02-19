@@ -12,11 +12,6 @@
   flex-direction: column;
 }
 
-.differentials .container h2 {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
 .differentials-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -35,6 +30,7 @@
 
 .differentials-list h3 {
   font-size: 2.2rem;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--blue-text-color);
   margin: 10px 0;

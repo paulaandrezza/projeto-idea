@@ -15,9 +15,9 @@
 
   --menu-icon-color: #333;
 
-  --blue-banner-color: #00738795;
-  --green-banner-color: #00b57f95;
-
+  --blue-banner-color: #007387dd;
+  --green-banner-color: #00b57fdd;
+  --eco-banner-color: #cffa38;
 
   --black-with-opacity-90: #00000090;
   --black-with-opacity-20: #00000020;
@@ -34,6 +34,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
 }
 
 li {
@@ -55,12 +57,12 @@ a:hover {
 
 body {
   overflow-x: hidden;
-  font-family: 'Mulish', sans-serif;
 }
 
 h2, h3 {
   color: var(--subtitle-color);
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 p {

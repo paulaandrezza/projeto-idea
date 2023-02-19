@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.clientes h3 {
+  font-weight: 400;
+}
+
 .slider {
   position: relative;
 }
