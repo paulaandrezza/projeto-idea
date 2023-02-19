@@ -20,7 +20,6 @@ const differentialsInfo = [
 
 const differentials = document.getElementById('differentials-list');
 
-
 function convertArrayToLi(differentials) {
   return `
     <li>
@@ -30,8 +29,6 @@ function convertArrayToLi(differentials) {
     </li>
   `
 }
-
-
 
 function createHtmlDifferentials() {
   const newHtml = differentialsInfo.map(convertArrayToLi).join('')
